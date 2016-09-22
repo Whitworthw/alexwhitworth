@@ -19,8 +19,6 @@
     <?php wp_head(); ?>
   </head>
   <body>
-	<main id="barba-wrapper">
-	<div class="barba-container">
   <header <?php if (is_archive('projects') || is_singular('projects') ) { echo 'class="projects"';}?>>
         <?php include 'modules/nav-main.php'; ?>
     <?php if (is_archive('projects')) { get_template_part('modules/nav', 'sub');} ?>
