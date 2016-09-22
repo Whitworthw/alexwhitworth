@@ -20,9 +20,9 @@
   </head>
   <body>
   <header <?php if (is_archive('projects') || is_singular('projects') ) { echo 'class="projects"';}?>>
-        <?php include 'modules/nav-main.php'; ?>
-    <?php if (is_archive('projects')) { get_template_part('modules/nav', 'sub');} ?>
-    <?php if (is_singular('projects')) { get_template_part('modules/nav', 'single');} ?>
+        <?php include 'template-parts/nav-main.php'; ?>
+    <?php if (is_archive('projects')) { get_template_part('template-parts/nav', 'sub');} ?>
+    <?php if (is_singular('projects')) { get_template_part('template-parts/nav', 'single');} ?>
     
 
   </header>

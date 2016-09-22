@@ -65,7 +65,7 @@ class My_Walker_Nav_Menu extends Walker_Nav_Menu {
 // Hide admin bar.
 show_admin_bar( false );
 
-
+// From PHP Docs
 function print_r2($val){
         echo '<pre>';
         print_r($val);
